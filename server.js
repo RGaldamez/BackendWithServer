@@ -14,7 +14,7 @@ server.connection({
               }
 });
 
-mongoose.connect('mongodb://admin:dbpassword@ds053764.mlab.com:53764/rgdb');
+mongoose.connect('mongodb://admin:admin@ds053764.mlab.com:53764/rgdb');
 
 var db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
